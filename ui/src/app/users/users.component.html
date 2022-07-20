@@ -1,0 +1,5 @@
+<div *ngFor="let user of userList" class="hlahla">
+  <p>
+    <a [routerLink]="['view', user._id]">{{user.name}}</a>
+     . {{user.mail}}</p>
+</div>
